@@ -1,0 +1,43 @@
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 4rem 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.btn {
+  border: 1px solid $dark-color;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 40rem));
+  grid-gap: 7rem;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  background: $white-color;
+  color: $dark-color;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 5px 3px 0;
+  word-break: break-all;
+  transition: 400ms ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.5) 4px 10px 5px 0;
+}
