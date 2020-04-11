@@ -13,6 +13,11 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  transition: 300ms ease;
+}
+
+a:hover {
+  transform: scale(1.1);
 }
 
 .btn {

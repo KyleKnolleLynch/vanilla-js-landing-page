@@ -17,8 +17,7 @@
 }
 
 #section2 {
-  height: 100vh;
-  margin-top: 20rem;
+  margin: 20rem auto 10rem;
   .card {
     .img-div {
       position: relative;
@@ -26,25 +25,23 @@
         height: 350px;
         object-fit: cover;
       }
+      span a {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0.5rem 1rem;
+        color: $white-color;
+        background: #0099ff;
+        font-size: 1.2rem;
+      }
+      span a:hover {
+        background: darken(#0099ff, 10%);
+      }
     }
-    span a {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      padding: 0.5rem 1rem;
-      color: $white-color;
-      background: #007180;
-      font-size: 1.2rem;
-      transition: 200ms ease;
-    }
-    span a:hover {
-      background: lighten(#007180, 5%);
-    }
+
     .sub-caption {
       padding: 1.5rem;
       font-size: 1.5rem;
-      h4 {
-      }
       p {
         padding: 0.5rem 0 1rem;
       }
@@ -60,11 +57,8 @@
         font-size: 0.9rem;
         margin-left: 1rem;
         text-transform: uppercase;
-        transition: all 200ms ease;
       }
       a:hover {
-        background: darken(#fff, 10%);
-        border: 1px solid #000;
         font-weight: bold;
       }
     }
