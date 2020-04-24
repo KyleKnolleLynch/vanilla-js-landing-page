@@ -16,10 +16,6 @@ a {
   transition: 300ms ease;
 }
 
-a:hover {
-  transform: scale(1.1);
-}
-
 .btn {
   border: 1px solid $dark-color;
   padding: 0.4rem;
@@ -37,12 +33,12 @@ a:hover {
   width: 100%;
   background: $white-color;
   color: $dark-color;
-  box-shadow: rgba(0, 0, 0, 0.5) 2px 5px 3px 0;
+  box-shadow: 1px 2px 4px rgba(0,0,0,0.2);
   word-break: break-all;
   transition: 400ms ease;
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: rgba(0, 0, 0, 0.5) 4px 10px 5px 0;
+  box-shadow:  2px 4px 8px rgba(0, 0, 0, 0.3);
 }
