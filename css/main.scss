@@ -2,11 +2,11 @@
 @import 'utils';
 
 #section1 {
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 90vh;
   padding: 0 2rem;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url('../images/bg-intro.jpg') center center / cover no-repeat;
@@ -21,6 +21,7 @@
   .card {
     .img-div {
       position: relative;
+      border-bottom: 1px solid #0099ff;
       img {
         height: 350px;
         object-fit: cover;
@@ -59,8 +60,8 @@
         text-transform: uppercase;
       }
       a:hover {
-        transform: scale(1.08);
-        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        transform: scale(0.9);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       }
     }
   }
